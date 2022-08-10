@@ -1,0 +1,9 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -0,6 +0,7 @@
+ *.iml
+ .gradle
+ /local.properties
++/.idea/caches
+ /.idea/libraries
+ /.idea/modules.xml
+ /.idea/workspace.xml
