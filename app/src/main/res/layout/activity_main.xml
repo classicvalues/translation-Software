@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:usesCleartextTraffic="true"
+
+    >
+
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要翻译的:"
+        android:textSize="30dp"
+        android:textColor="#9999"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/query1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="英译汉查询"
+        android:textSize="30dp"
+        android:width="200dp"
+        android:height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/slateblue"/>
+
+    <Button
+        android:id="@+id/query2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="汉译英查询"
+        android:textSize="30dp"
+        android:width="200dp"
+        android:height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/slateblue"/>
+
+
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:height="200dp"
+        android:text="还没查询！"
+        android:textSize="30dp"
+        android:editable="false"/>
+
+
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="关于"
+            android:textSize="30dp"
+            android:background="@color/royalblue"/>
+
+
+
+
+
+
+</LinearLayout>
